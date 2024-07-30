@@ -1,0 +1,1 @@
+(()=>{var o=document.querySelector(".examples__more-button"),t=document.querySelectorAll(".example"),l=document.querySelectorAll("button span");o.addEventListener("click",()=>{for(let e=4;e<t.length;e++)t[e].classList.toggle("example--hidden");l.forEach(e=>{e.classList.toggle("button--hidden")})});})();
