@@ -1,1 +1,15 @@
-(()=>{var o=document.querySelector(".examples__more-button"),t=document.querySelectorAll(".example"),l=document.querySelectorAll("button span");o.addEventListener("click",()=>{for(let e=4;e<t.length;e++)t[e].classList.toggle("example--hidden");l.forEach(e=>{e.classList.toggle("button--hidden")})});})();
+(() => {
+  // source/scripts/moreExamples.js
+  var moreButton = document.querySelector(".examples__more-button");
+  var examples = document.querySelectorAll(".example");
+  var spans = document.querySelectorAll("button span");
+  moreButton.addEventListener("click", () => {
+    for (let i = 4; i < examples.length; i++) {
+      examples[i].classList.toggle("example--hidden");
+    }
+    spans.forEach((span) => {
+      span.classList.toggle("button--hidden");
+    });
+  });
+})();
+//# sourceMappingURL=moreExamples.js.map

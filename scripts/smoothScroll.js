@@ -1,1 +1,18 @@
-(()=>{var l=()=>{document.querySelectorAll('a[href^="#"]:not(a[href="#"])').forEach(t=>{t.addEventListener("click",o=>{o.preventDefault();let e=t.getAttribute("href");e=e.substring(1),document.getElementById(e).scrollIntoView({behavior:"smooth"})})})};l();})();
+(() => {
+  // source/scripts/smoothScroll.js
+  var smoothScroll = () => {
+    const scrollLinks = document.querySelectorAll('a[href^="#"]:not(a[href="#"])');
+    scrollLinks.forEach((anchor) => {
+      anchor.addEventListener("click", (e) => {
+        e.preventDefault();
+        let id = anchor.getAttribute("href");
+        id = id.substring(1);
+        document.getElementById(id).scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+  };
+  smoothScroll();
+})();
+//# sourceMappingURL=smoothScroll.js.map

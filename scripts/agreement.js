@@ -1,1 +1,13 @@
-(()=>{var e=document.querySelector(".form__button"),t=document.getElementById("agree");e.disabled=!0;t.addEventListener("change",()=>{t.checked?e.disabled=!1:e.disabled=!0});})();
+(() => {
+  // source/scripts/agreement.js
+  var submitButton = document.querySelector(".form__button");
+  var checkbox = document.getElementById("agree");
+  submitButton.disabled = true;
+  checkbox.addEventListener("change", () => {
+    if (checkbox.checked)
+      submitButton.disabled = false;
+    else
+      submitButton.disabled = true;
+  });
+})();
+//# sourceMappingURL=agreement.js.map
