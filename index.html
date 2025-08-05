@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Портфолио</title>
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="images/favicons/favicon.svg" type="image/svg+xml">
@@ -13,8 +13,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;560&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/styles.css">
-  <script src="scripts/smoothScroll.js" defer="defer"></script>
-  <script src="scripts/moreExamples.js" defer="defer"></script>
+  <script src="scripts/smoothScroll.js" defer></script>
+  <script src="scripts/moreExamples.js" defer></script>
 </head>
 
 <body class="page">
@@ -42,7 +42,9 @@
         </div>
 
         <div class="intro__image-box">
-          <img class="intro__image" src="images/me.svg" alt="Рисунок, изображающий как бы меня: комфортное рабочее место, ноутбук, рядом - любимая собака." width="363">
+          <img class="intro__image" src="images/me.svg"
+            alt="Рисунок, изображающий как бы меня: комфортное рабочее место, ноутбук, рядом - любимая собака."
+            width="363">
         </div>
       </section>
 
@@ -74,16 +76,24 @@
                 <li class="example__list-item">БЭМ, LESS, ретинизация</li>
                 <li class="example__list-item">Адаптивность: версии для ПК, планшетов и мобильных</li>
               </ul>
-              <a class="example__link link" href="https://macedu.ru" target="blank" rel="noopener noreferrer">
+              <a class="example__link link" href="https://macedu.ru" target="_blank" rel="noopener noreferrer">
                 <div class="logo link__logo"></div>
                 Посмотреть
               </a>
             </div>
             <picture>
-              <source media="(max-width: 540px)" type="image/webp" srcset="images/screenshots/macedu_mobile@1x.webp, images/screenshots/macedu_mobile@2x.webp 2x" width="450" height="355">
-              <source media="(max-width: 540px)" srcset="images/screenshots/macedu_mobile@1x.jpg, images/screenshots/macedu_mobile@2x.jpg 2x" width="450" height="355">
-              <source type="image/webp" srcset="images/screenshots/macedu@1x.webp, images/screenshots/macedu@2x.webp 2x" width="595" height="469">
-              <img class="example__img" src="images/screenshots/macedu@1x.jpg" srcset="images/screenshots/macedu@2x.jpg 2x" alt="Скриншот сайта компьютерных курсов" width="595" height="469">
+              <source media="(max-width: 540px)" type="image/webp"
+                srcset="images/screenshots/macedu_mobile@1x.webp 1x, images/screenshots/macedu_mobile@2x.webp 2x"
+                width="450" height="355">
+              <source media="(max-width: 540px)"
+                srcset="images/screenshots/macedu_mobile@1x.jpg 1x, images/screenshots/macedu_mobile@2x.jpg 2x"
+                width="450" height="355">
+              <source type="image/webp"
+                srcset="images/screenshots/macedu@1x.webp 1x, images/screenshots/macedu@2x.webp 2x" width="595"
+                height="469">
+              <img class="example__img" src="images/screenshots/macedu@1x.jpg"
+                srcset="images/screenshots/macedu@2x.jpg 2x" alt="Скриншот сайта компьютерных курсов" width="595"
+                height="469">
             </picture>
           </section>
 
@@ -97,16 +107,22 @@
                 <li class="example__list-item">БЭМ, LESS, ретинизация</li>
                 <li class="example__list-item">Адаптивность: версии для ПК, планшетов и мобильных</li>
               </ul>
-              <a class="example__link link" href="https://owls.gladiols.ru" target="blank" rel="noopener noreferrer">
+              <a class="example__link link" href="https://owls.gladiols.ru" target="_blank" rel="noopener noreferrer">
                 <div class="logo link__logo"></div>
                 Посмотреть
               </a>
             </div>
             <picture>
-              <source media="(max-width: 540px)" type="image/webp" srcset="images/screenshots/owls_mobile@1x.webp, images/screenshots/owls_mobile@2x.webp 2x" width="450" height="355">
-              <source media="(max-width: 540px)" srcset="images/screenshots/owls_mobile@1x.jpg, images/screenshots/owls_mobile@2x.jpg 2x" width="450" height="355">
-              <source type="image/webp" srcset="images/screenshots/owls@1x.webp, images/screenshots/owls@2x.webp 2x" width="595" height="469">
-              <img class="example__img" src="images/screenshots/owls@1x.jpg" srcset="images/screenshots/owls@2x.jpg 2x" alt="Скриншот лендинга для книги" width="595" height="469">
+              <source media="(max-width: 540px)" type="image/webp"
+                srcset="images/screenshots/owls_mobile@1x.webp 1x, images/screenshots/owls_mobile@2x.webp 2x"
+                width="450" height="355">
+              <source media="(max-width: 540px)"
+                srcset="images/screenshots/owls_mobile@1x.jpg 1x, images/screenshots/owls_mobile@2x.jpg 2x" width="450"
+                height="355">
+              <source type="image/webp" srcset="images/screenshots/owls@1x.webp 1x, images/screenshots/owls@2x.webp 2x"
+                width="595" height="469">
+              <img class="example__img" src="images/screenshots/owls@1x.jpg" srcset="images/screenshots/owls@2x.jpg 2x"
+                alt="Скриншот лендинга для книги" width="595" height="469">
             </picture>
           </section>
 
@@ -119,16 +135,23 @@
                 <li class="example__list-item">«Гибкие» контейнеры и сетки</li>
                 <li class="example__list-item">Адаптивность: версии для ПК, планшетов и мобильных</li>
               </ul>
-              <a class="example__link link" href="https://www.gladiols.ru" target="blank" rel="noopener noreferrer">
+              <a class="example__link link" href="https://www.gladiols.ru" target="_blank" rel="noopener noreferrer">
                 <div class="logo link__logo"></div>
                 Посмотреть
               </a>
             </div>
             <picture>
-              <source media="(max-width: 540px)" type="image/webp" srcset="images/screenshots/glads_mobile@1x.webp, images/screenshots/glads_mobile@2x.webp 2x" width="450" height="355">
-              <source media="(max-width: 540px)" srcset="images/screenshots/glads_mobile@1x.jpg, images/screenshots/glads_mobile@2x.jpg 2x" width="450" height="355">
-              <source type="image/webp" srcset="images/screenshots/glads@1x.webp, images/screenshots/glads@2x.webp 2x" width="595" height="469">
-              <img class="example__img" src="images/screenshots/glads@1x.jpg" srcset="images/screenshots/glads@2x.jpg 2x" width="595" height="469" alt="Скриншот сайта о гладиолусах">
+              <source media="(max-width: 540px)" type="image/webp"
+                srcset="images/screenshots/glads_mobile@1x.webp 1x, images/screenshots/glads_mobile@2x.webp 2x"
+                width="450" height="355">
+              <source media="(max-width: 540px)"
+                srcset="images/screenshots/glads_mobile@1x.jpg 1x, images/screenshots/glads_mobile@2x.jpg 2x"
+                width="450" height="355">
+              <source type="image/webp"
+                srcset="images/screenshots/glads@1x.webp 1x, images/screenshots/glads@2x.webp 2x" width="595"
+                height="469">
+              <img class="example__img" src="images/screenshots/glads@1x.jpg"
+                srcset="images/screenshots/glads@2x.jpg 2x" width="595" height="469" alt="Скриншот сайта о гладиолусах">
             </picture>
           </section>
 
@@ -141,16 +164,25 @@
                 <li class="example__list-item">БЭМ, LESS</li>
                 <li class="example__list-item">Адаптивность: версии для ПК, планшетов и мобильных</li>
               </ul>
-              <a class="example__link link" href="https://www.yorki-westi36.ru" target="blank" rel="noopener noreferrer">
+              <a class="example__link link" href="https://www.yorki-westi36.ru" target="_blank"
+                rel="noopener noreferrer">
                 <div class="logo link__logo"></div>
                 Посмотреть
               </a>
             </div>
             <picture>
-              <source media="(max-width: 540px)" type="image/webp" srcset="images/screenshots/yorki_mobile@1x.webp, images/screenshots/yorki_mobile@2x.webp 2x" width="450" height="355">
-              <source media="(max-width: 540px)" srcset="images/screenshots/yorki_mobile@1x.jpg, images/screenshots/yorki_mobile@2x.jpg 2x" width="450" height="355">
-              <source type="image/webp" srcset="images/screenshots/yorki@1x.webp, images/screenshots/yorki@2x.webp 2x" width="595" height="469">
-              <img class="example__img" src="images/screenshots/yorki@1x.jpg" srcset="images/screenshots/yorki@2x.jpg 2x" width="595" height="469" alt="Скриншот сайта питомника собак">
+              <source media="(max-width: 540px)" type="image/webp"
+                srcset="images/screenshots/yorki_mobile@1x.webp 1x, images/screenshots/yorki_mobile@2x.webp 2x"
+                width="450" height="355">
+              <source media="(max-width: 540px)"
+                srcset="images/screenshots/yorki_mobile@1x.jpg 1x, images/screenshots/yorki_mobile@2x.jpg 2x"
+                width="450" height="355">
+              <source type="image/webp"
+                srcset="images/screenshots/yorki@1x.webp 1x, images/screenshots/yorki@2x.webp 2x" width="595"
+                height="469">
+              <img class="example__img" src="images/screenshots/yorki@1x.jpg"
+                srcset="images/screenshots/yorki@2x.jpg 2x" width="595" height="469"
+                alt="Скриншот сайта питомника собак">
             </picture>
           </section>
 
@@ -165,16 +197,23 @@
                 <li class="example__list-item">Адаптивность: версии для ПК, планшетов и мобильных</li>
                 <li class="example__list-item">Интерактивность: меню, галерея товаров, модальные окна, слайдеры</li>
               </ul>
-              <a class="example__link link" href="https://github.com/jumile/irc" target="blank" rel="noopener noreferrer">
+              <a class="example__link link" href="https://github.com/jumile/irc" target="_blank"
+                rel="noopener noreferrer">
                 <div class="logo link__logo"></div>
                 Посмотреть на Github
               </a>
             </div>
             <picture>
-              <source media="(max-width: 540px)" type="image/webp" srcset="images/screenshots/irc_mobile@1x.webp, images/screenshots/irc_mobile@2x.webp 2x" width="450" height="355">
-              <source media="(max-width: 540px)" srcset="images/screenshots/irc_mobile@1x.jpg, images/screenshots/irc_mobile@2x.jpg 2x" width="450" height="355">
-              <source type="image/webp" srcset="images/screenshots/irc@1x.webp, images/screenshots/irc@2x.webp 2x" width="595" height="469">
-              <img class="example__img" src="images/screenshots/irc@1x.jpg" srcset="images/screenshots/irc@2x.jpg 2x" width="595" height="469" alt="Скриншот сайта косметической линии">
+              <source media="(max-width: 540px)" type="image/webp"
+                srcset="images/screenshots/irc_mobile@1x.webp 1x, images/screenshots/irc_mobile@2x.webp 2x" width="450"
+                height="355">
+              <source media="(max-width: 540px)"
+                srcset="images/screenshots/irc_mobile@1x.jpg 1x, images/screenshots/irc_mobile@2x.jpg 2x" width="450"
+                height="355">
+              <source type="image/webp" srcset="images/screenshots/irc@1x.webp 1x, images/screenshots/irc@2x.webp 2x"
+                width="595" height="469">
+              <img class="example__img" src="images/screenshots/irc@1x.jpg" srcset="images/screenshots/irc@2x.jpg 2x"
+                width="595" height="469" alt="Скриншот сайта косметической линии">
             </picture>
           </section>
 
@@ -189,16 +228,25 @@
                 <li class="example__list-item">Адаптивность: версии для ПК, планшетов и мобильных</li>
                 <li class="example__list-item">Интерактивность: меню, галерея отзывов, модальные окна</li>
               </ul>
-              <a class="example__link link" href="https://github.com/jumile/IceCream" target="blank" rel="noopener noreferrer">
+              <a class="example__link link" href="https://github.com/jumile/IceCream" target="_blank"
+                rel="noopener noreferrer">
                 <div class="logo link__logo"></div>
                 Посмотреть на Github
               </a>
             </div>
             <picture>
-              <source media="(max-width: 540px)" type="image/webp" srcset="images/screenshots/icecream_mobile@1x.webp, images/screenshots/icecream_mobile@2x.webp 2x" width="450" height="355">
-              <source media="(max-width: 540px)" srcset="images/screenshots/icecream_mobile@1x.jpg, images/screenshots/icecream_mobile@2x.jpg 2x" width="450" height="355">
-              <source type="image/webp" srcset="images/screenshots/icecream@1x.webp, images/screenshots/icecream@2x.webp 2x" width="595" height="469">
-              <img class="example__img" src="images/screenshots/icecream@1x.jpg" srcset="images/screenshots/icecream@2x.jpg 2x" width="595" height="469" alt="Скриншот сайта про мороженое">
+              <source media="(max-width: 540px)" type="image/webp"
+                srcset="images/screenshots/icecream_mobile@1x.webp 1x, images/screenshots/icecream_mobile@2x.webp 2x"
+                width="450" height="355">
+              <source media="(max-width: 540px)"
+                srcset="images/screenshots/icecream_mobile@1x.jpg 1x, images/screenshots/icecream_mobile@2x.jpg 2x"
+                width="450" height="355">
+              <source type="image/webp"
+                srcset="images/screenshots/icecream@1x.webp 1x, images/screenshots/icecream@2x.webp 2x" width="595"
+                height="469">
+              <img class="example__img" src="images/screenshots/icecream@1x.jpg"
+                srcset="images/screenshots/icecream@2x.jpg 2x" width="595" height="469"
+                alt="Скриншот сайта про мороженое">
             </picture>
           </section>
 
@@ -211,16 +259,25 @@
                 <li class="example__list-item">Адаптивность: версии для ПК, планшетов и мобильных</li>
                 <li class="example__list-item">Интерактивные элементы формы, фильтры</li>
               </ul>
-              <a class="example__link link" href="https://github.com/jumile/wyfly" target="blank" rel="noopener noreferrer">
+              <a class="example__link link" href="https://github.com/jumile/wyfly" target="_blank"
+                rel="noopener noreferrer">
                 <div class="logo link__logo"></div>
                 Посмотреть на Github
               </a>
             </div>
             <picture>
-              <source media="(max-width: 540px)" type="image/webp" srcset="images/screenshots/wyfly_mobile@1x.webp, images/screenshots/wyfly_mobile@2x.webp 2x" width="450" height="355">
-              <source media="(max-width: 540px)" srcset="images/screenshots/wyfly_mobile@1x.jpg, images/screenshots/wyfly_mobile@2x.jpg 2x" width="450" height="355">
-              <source type="image/webp" srcset="images/screenshots/wyfly@1x.webp, images/screenshots/wyfly@2x.webp 2x" width="595" height="469">
-              <img class="example__img" src="images/screenshots/wyfly@1x.jpg" srcset="images/screenshots/wyfly@2x.jpg 2x" width="595" height="469" alt="Скриншот сайта заказа билетов">
+              <source media="(max-width: 540px)" type="image/webp"
+                srcset="images/screenshots/wyfly_mobile@1x.webp 1x, images/screenshots/wyfly_mobile@2x.webp 2x"
+                width="450" height="355">
+              <source media="(max-width: 540px)"
+                srcset="images/screenshots/wyfly_mobile@1x.jpg 1x, images/screenshots/wyfly_mobile@2x.jpg 2x"
+                width="450" height="355">
+              <source type="image/webp"
+                srcset="images/screenshots/wyfly@1x.webp 1x, images/screenshots/wyfly@2x.webp 2x" width="595"
+                height="469">
+              <img class="example__img" src="images/screenshots/wyfly@1x.jpg"
+                srcset="images/screenshots/wyfly@2x.jpg 2x" width="595" height="469"
+                alt="Скриншот сайта заказа билетов">
             </picture>
           </section>
 
@@ -234,16 +291,25 @@
                 <li class="example__list-item">Адаптивность: версии для ПК, планшетов и мобильных</li>
                 <li class="example__list-item">Интерактивность: слайдеры</li>
               </ul>
-              <a class="example__link link" href="https://github.com/jumile/garden-city" target="blank" rel="noopener noreferrer">
+              <a class="example__link link" href="https://github.com/jumile/garden-city" target="_blank"
+                rel="noopener noreferrer">
                 <div class="logo link__logo"></div>
                 Посмотреть на Github
               </a>
             </div>
             <picture>
-              <source media="(max-width: 540px)" type="image/webp" srcset="images/screenshots/garden_mobile@1x.webp, images/screenshots/garden_mobile@2x.webp 2x" width="450" height="355">
-              <source media="(max-width: 540px)" srcset="images/screenshots/garden_mobile@1x.jpg, images/screenshots/garden_mobile@2x.jpg 2x" width="450" height="355">
-              <source type="image/webp" srcset="images/screenshots/garden@1x.webp, images/screenshots/garden@2x.webp 2x" width="595" height="469">
-              <img class="example__img" src="images/screenshots/garden@1x.jpg" srcset="images/screenshots/garden@2x.jpg 2x" width="595" height="469" alt="Скриншот сайта Garden City Center">
+              <source media="(max-width: 540px)" type="image/webp"
+                srcset="images/screenshots/garden_mobile@1x.webp 1x, images/screenshots/garden_mobile@2x.webp 2x"
+                width="450" height="355">
+              <source media="(max-width: 540px)"
+                srcset="images/screenshots/garden_mobile@1x.jpg 1x, images/screenshots/garden_mobile@2x.jpg 2x"
+                width="450" height="355">
+              <source type="image/webp"
+                srcset="images/screenshots/garden@1x.webp 1x, images/screenshots/garden@2x.webp 2x" width="595"
+                height="469">
+              <img class="example__img" src="images/screenshots/garden@1x.jpg"
+                srcset="images/screenshots/garden@2x.jpg 2x" width="595" height="469"
+                alt="Скриншот сайта Garden City Center">
             </picture>
           </section>
         </div> <!-- /.content__gallery-->
@@ -269,16 +335,22 @@
             <p class="about__details">в Учебном центре «Специалист» при МГТУ
               им. Н. Э. Баумана</p>
             <p class="about__details about__links-wrapper">
-              <a class="about__link" href="https://www.specialist.ru/graduate/groupcert/1121457" target="_blank" rel="noopener noreferrer">Сертификат 1</a>
-              <a class="about__link" href="https://www.specialist.ru/graduate/groupcert/1121458" target="_blank" rel="noopener noreferrer">Сертификат 2</a>
+              <a class="about__link" href="https://www.specialist.ru/graduate/groupcert/1121457" target="_blank"
+                rel="noopener noreferrer">Сертификат 1</a>
+              <a class="about__link" href="https://www.specialist.ru/graduate/groupcert/1121458" target="_blank"
+                rel="noopener noreferrer">Сертификат 2</a>
             </p>
           </li>
           <li class="about__card">
             <h4 class="about__title">Изучала анимацию</h4>
             <p class="about__details">в HTMLAcademy</p>
             <p class="about__details about__links-wrapper">
-              <a class="about__link" href="https://assets.htmlacademy.ru/certificates/intensive/253/2108789.pdf?1680520267" target="_blank" rel="noopener noreferrer">Сертификат 1</a>
-              <a class="about__link" href="https://assets.htmlacademy.ru/certificates/intensive/461/2108789.pdf?1683276277" target="_blank" rel="noopener noreferrer">Сертификат 2</a>
+              <a class="about__link"
+                href="https://assets.htmlacademy.ru/certificates/intensive/253/2108789.pdf?1680520267" target="_blank"
+                rel="noopener noreferrer">Сертификат 1</a>
+              <a class="about__link"
+                href="https://assets.htmlacademy.ru/certificates/intensive/461/2108789.pdf?1683276277" target="_blank"
+                rel="noopener noreferrer">Сертификат 2</a>
             </p>
           </li>
         </ul>
@@ -292,14 +364,15 @@
               <div class="logo__text">W</div>
             </div>
             <p class="contacts__text contacts__text--with-logo">
-              Профиль на <a class="contacts__link" href="https://youdo.com/u11959915" target="_blank" rel="noopener noreferrer">Youdo</a>.</p>
+              Профиль на <a class="contacts__link" href="https://youdo.com/u11959915" target="_blank"
+                rel="noopener noreferrer">Youdo</a>.</p>
           </li>
           <li class="contacts__item">
             <a class="contacts__tg contacts__link" href="https://t.me/web_studies">Напишите в Телеграм.</a>
           </li>
         </ul>
       </section>
-  </main></div>
+  </div>
 </body>
 
 </html>
