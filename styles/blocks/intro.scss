@@ -1,0 +1,57 @@
+.intro {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+
+  @media #{$netbook} {
+    padding: 50px 0 0;
+    display: flex;
+    gap: 50px;
+  }
+}
+
+.intro__text-box {
+  margin-bottom: 30px;
+
+  @media #{$tablet} {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  @media #{$netbook} {
+    max-width: 40%;
+  }
+}
+
+.intro__title {
+  @include margin-tb(33px);
+  color: $color-title;
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+}
+
+.intro__text {
+  @include margin-tb(20px);
+  font-size: 1.25rem;
+  line-height: 170%;
+}
+
+.intro__image-box {
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+
+  @media #{$tablet} {
+    max-width: 50%;
+  }
+
+   @media #{$netbook} {
+     align-self: center;
+  }
+}
+
+.intro__image {
+  max-width: 100%;
+  height: auto;
+}
+

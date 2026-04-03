@@ -1,0 +1,66 @@
+.contacts {
+  padding-bottom: 50px;
+}
+
+.contacts__title {
+  @include margin-tb(33px);
+  color: $color-title;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.contacts__list {
+  @include list();
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 22px;
+}
+
+.contacts__text {
+  font-size: 1.3rem;
+  margin: 0;
+  padding-left: 49px;
+  line-height: 1.5;
+
+  &--with-logo {
+    margin: -40px 0 0 0;
+  }
+}
+
+
+.contacts__link {
+  text-decoration: none;
+  color: $accent-color;
+  transition: color .3s ease;
+
+  &:hover {
+    color: $main-color;
+  }
+
+  &:focus {
+    color: $main-color;
+  }
+}
+
+.contacts__tg {
+  display: flex;
+  gap: 9px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #1e96ca;
+    mask: url(../../images/telegram_icon.svg)no-repeat center;
+    transition: background .3s ease;
+  }
+
+  &:hover::before,
+  &:focus-visible::before {
+    background: #2070a9;
+  }
+}
